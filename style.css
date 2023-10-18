@@ -1,0 +1,214 @@
+
+/* resizablecontainer */
+/* .container{
+  background-color: yellow;
+  padding:5px;
+  width: 50px;
+  height:50px;
+  max-width: 1200px;
+  max-height:1200px;
+  border-radius: 50px;
+  resize:both;
+  overflow:auto;
+} */
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Geneva;
+}
+.sec-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ff00cc, hwb(55 0% 0%));
+  font-family:serif;
+}
+
+.sec-1{
+  display: flex;
+  
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ff00cc, hwb(55 0% 0%));;
+}
+
+
+
+
+
+
+
+body{
+  
+  background-color: hwb(43 16% 19% / 0.863);
+}
+.navbar {
+  background-color: white; /* Background color for the navbar */
+  overflow: hidden;
+}
+
+/* Style the navbar links */
+.navbar ul {
+  list-style-type: none;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 60px; /* Adjust the spacing between navbar items */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black; /* Text color for the links */
+  font-size: 25px; /* Font size for the links */
+}
+
+/* Style the navbar links on hover */
+
+.background-container {
+  background-image: url('img1.jpg'); /* Replace 'path/to/your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* Adjust the image size to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 80vh; /* Set the height of the container */
+}
+.box{  
+  background: linear-gradient(to right, #ff00cc, hwb(55 0% 0%));;
+  position: absolute; 
+  height: 30%; 
+  width: 40%; 
+  left: 10%; 
+  top: 25%; 
+  opacity: 0.5;
+} 
+p{
+  font-size: large;
+  font-weight: 1000;
+  color:whitesmoke;
+  padding-left: 10px;
+
+}
+h2{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  margin-left: 60px;
+  margin-bottom: 20px;
+
+}
+
+.container {
+  
+  width: 900px;
+  height: 400px;
+margin-top: 50px;
+display: flex;
+}
+
+.rec {
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  border-top-right-radius:50px ;
+  border-bottom-left-radius:50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.container {
+  
+  width: 900px;
+  height: 400px;
+margin-top: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+flex-direction: column;
+  
+  
+}
+.rec img{
+  width:300px;
+  height: 250px;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-right-radius:50px ;
+  border-bottom-left-radius:50px;
+ 
+}
+.desc{
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+  
+.rectangle {
+  display: flex;
+
+  /*this centers the text horizontally*/
+  justify-content: center;
+
+  /*this centers the text vertically*/
+  align-items: center;
+
+  font-size: large;
+  height: 60px;
+  width: 150px;
+  background-color:white ;
+margin-top: 100px;
+border-radius: 40px;
+font-weight:bolder;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+opacity: 0.6;
+color:thick solid black;
+font-size: 22px;}
+
+.up{
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.line{
+  width: 100%;
+  height: 10px;
+  background-color: black;
+}
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+}
+.rec p{
+  color: black;
+  margin-top: 10px;
+}
+.navbar ul i{
+  
+  padding-left: 400px;
+  margin-right: 10px;
+
+}
